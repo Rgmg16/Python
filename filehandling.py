@@ -53,7 +53,7 @@ file.write('\nAppending a new line.')
 file.close()
 
 # Use of "with" statement
-
+ 
 # Open a file using with statement
 with open('example.txt', 'r') as file:
     content = file.read()
