@@ -50,3 +50,10 @@ for match in matches:
 # [abc] : Matches any one of the characters a, b, or c.
 # [^abc] : Matches any character except a, b, or c.
 # (abc) : Matches the group "abc".
+# |: Alternation operator that matches either the expression before or after it.
+
+# Regex modifiers
+# i: Case-insensitive matching.
+# m: Multiline mode where ^ and $ match the start and end of each line.
+# s: Dot-all mode where . matches newline characters as well.
+# x: Verbose mode that allows whitespace and comments within the pattern.
